@@ -8,11 +8,11 @@ public class Calculator {
         int four = 4;
         int five = 5;
         int sixDivTwo = six / two;
-        System.out.println(sixDivTwo);
+        System.out.println("sixDivTwo" + " = " + sixDivTwo);
         int fiveMinusTwo = five - two;
-        System.out.println(fiveMinusTwo);
+        System.out.println("fiveMinusTwo" + " = " + fiveMinusTwo);
         int fourTimeTwo = four * two;
-        System.out.println(fourTimeTwo);
+        System.out.println("fourTimeTwo" + " = " + fourTimeTwo);
 
     }
 }
