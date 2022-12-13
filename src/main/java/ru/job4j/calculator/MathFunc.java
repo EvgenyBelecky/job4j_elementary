@@ -2,13 +2,11 @@ package ru.job4j.calculator;
 
 public class MathFunc {
     public static int func1(int x) {
-        int y = x * x + 1;
-        return y; // указываем какой должен быть результат вычисления метода
+        return x * x + 1; // указываем какой должен быть результат вычисления метода
     }
 
     public static int func2(int x) {
-        int y = 1 / x;
-        return y;
+        return 1 / x;
     }
 
     public static void main(String[] args) {
