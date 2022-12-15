@@ -6,7 +6,7 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        double result = Point.distance(1, 4, 5, 2);
-        System.out.println("Result (1,4) to (5,2) " + result);
+        double result1 = Point.distance(1, 4, 5, 2);
+        System.out.println("Result (1,4) to (5,2) " + result1);
     }
 }
